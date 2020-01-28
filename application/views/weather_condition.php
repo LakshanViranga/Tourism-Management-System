@@ -21,10 +21,6 @@
         <div class="weather-card one">
             <div class="top">
                 <div class="wrapper">
-                    <div class="mynav">
-                        <a href="javascript:;"><span class="lnr lnr-chevron-left"></span></a>
-                        <a href="javascript:;"><span class="lnr lnr-cog"></span></a>
-                    </div>
                     <h1 class="heading">Clear night</h1>
                     <h3 class="location">Dhaka, Bangladesh</h3>
                     <p class="temp">
@@ -60,10 +56,6 @@
             <div class="weather-card one">
                 <div class="top">
                     <div class="wrapper">
-                        <div class="mynav">
-                            <a href="javascript:;"><span class="lnr lnr-chevron-left"></span></a>
-                            <a href="javascript:;"><span class="lnr lnr-cog"></span></a>
-                        </div>
                         <h1 class="heading">Clear night</h1>
                         <h3 class="location">Dhaka, Bangladesh</h3>
                         <p class="temp">
@@ -100,10 +92,6 @@
             <div class="weather-card one">
                 <div class="top">
                     <div class="wrapper">
-                        <div class="mynav">
-                            <a href="javascript:;"><span class="lnr lnr-chevron-left"></span></a>
-                            <a href="javascript:;"><span class="lnr lnr-cog"></span></a>
-                        </div>
                         <h1 class="heading">Clear night</h1>
                         <h3 class="location">Dhaka, Bangladesh</h3>
                         <p class="temp">

@@ -1,7 +1,7 @@
 
   <?php include('include/header.php') ?>
 
-    <section class="site-hero inner-page overlay" style="background-image: url(../../images/hero_4.jpg)" data-stellar-background-ratio="0.5">
+    <section class="site-hero inner-page overlay" style="background-image: url(../../../images/hero_4.jpg)" data-stellar-background-ratio="0.5">
       <div class="container">
         <div class="row site-hero-inner justify-content-center align-items-center">
           <div class="col-md-10 text-center" data-aos="fade">
@@ -91,7 +91,7 @@
         </div>
       
         <div class="site-block-half d-block d-lg-flex bg-white" data-aos="fade" data-aos-delay="100">
-          <a href="photo.php" class="image d-block bg-image-2" style="background-image: url('../../images/img_1.jpg');"></a>
+          <a href="photo.php" class="image d-block bg-image-2" style="background-image: url('../../../images/img_1.jpg');"></a>
           <div class="text">
             <span class="d-block mb-4"><span class="display-4 text-primary">Visit</span> <span class="text-uppercase letter-spacing-2">& Enjoy</span> </span>
             <h2 class="mb-4">Photos</h2>
@@ -100,7 +100,7 @@
           </div>
         </div>
         <div class="site-block-half d-block d-lg-flex bg-white" data-aos="fade" data-aos-delay="200">
-          <a href="https://www.google.lk/maps" class="image d-block bg-image-2 order-2" style="background-image: url('../../images/hotel_map.jpg');"></a>
+          <a href="https://www.google.lk/maps" class="image d-block bg-image-2 order-2" style="background-image: url('../../../images/hotel_map.jpg');"></a>
           <div class="text order-1">
             <span class="d-block mb-4"><span class="display-4 text-primary">We are Guide</span> <span class="text-uppercase letter-spacing-2">your trip</span> </span>
             <h2 class="mb-4">Location info</h2>
