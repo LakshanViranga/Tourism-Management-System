@@ -26,12 +26,12 @@
         <div class="row justify-content-center">
             <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
 
-                <?php echo form_open_multipart('Review_Controller/review_submit');?>
+                <?php echo form_open_multipart('upload/do_upload');?>
 <!--                <form action="#" method="post" class="bg-white p-md-5 p-4 mb-5 border">-->
                     <div class="row">
                         <div class="col-md-12 form-group">
                             <label for="name">Place Name</label>
-                            <input type="text" id="place_name" class="form-control" required>
+                            <input type="text" id="place_name" class="form-control" name="place_name" required>
                         </div>
                     </div>
                     <div class="row">
@@ -68,12 +68,13 @@
                     </div>
                     <div class="row mb-4">
                         <div class="image-upload-wrap">
-                            <input class="file-upload-input" type='file' onchange="" accept="image/*" name="path_name" />
-                        </div>
+                            <input class="file-upload-input" type='file'  name="userfile" size="20"/>
+                        </div><!--onchange="" accept="image/*"-->
                     </div>
                     <div class="row">
                         <div class="col-md-6 form-group">
-                            <button class="btn btn-primary text-white font-weight-bold" type="submit">Submit Review</button>
+<!--                            <button class="btn btn-primary text-white font-weight-bold" value="upload" type="submit">Submit Review</button>-->
+                            <input type="submit" value="upload" />
                         </div>
                     </div>
 <!--                </form>-->

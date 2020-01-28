@@ -62,4 +62,9 @@ class Home extends CI_Controller {
     {
         $this->load->view('write_review');
     }
+
+    public function Admin()
+    {
+      $this->load->view('admin_sup');
+    }
 }

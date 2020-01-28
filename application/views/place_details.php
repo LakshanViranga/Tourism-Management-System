@@ -28,7 +28,7 @@
         <div class="row check-availabilty" id="next">
           <div class="block-32" data-aos="fade-up" data-aos-offset="-200">
 
-            <form action="#">
+            <?php echo form_open('Check_availability/Checking')?>
               <div class="row">
                 <div class="col-md-6 mb-3 mb-lg-0 col-lg-3">
                   <label for="checkin_date" class="font-weight-bold text-black">Check In</label>
@@ -50,11 +50,11 @@
                       <label for="adults" class="font-weight-bold text-black">Adults</label>
                       <div class="field-icon-wrap">
                         <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                        <select name="" id="adults" class="form-control">
-                          <option value="">1</option>
-                          <option value="">2</option>
-                          <option value="">3</option>
-                          <option value="">4+</option>
+                        <select name="adults" id="adults" class="form-control">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4+</option>
                         </select>
                       </div>
                     </div>
@@ -62,21 +62,21 @@
                       <label for="children" class="font-weight-bold text-black">Children</label>
                       <div class="field-icon-wrap">
                         <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                        <select name="" id="children" class="form-control">
-                          <option value="">1</option>
-                          <option value="">2</option>
-                          <option value="">3</option>
-                          <option value="">4+</option>
+                        <select name="children" id="children" class="form-control">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4+</option>
                         </select>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-3 align-self-end">
-                  <button class="btn btn-primary btn-block text-white">Check Availabilty</button>
+                  <button class="btn btn-primary btn-block text-white" type="submit" >Check Availabilty</button>
                 </div>
               </div>
-            </form>
+            <?php echo form_close()?>
           </div>
         </div>
       </div>
@@ -106,7 +106,7 @@
             <h2 class="mb-4">Location info</h2>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
             <p><a href="<?php echo base_url('index.php/Home/Reservation/'.$result['place_name']);?>" class="btn btn-primary text-white">Book now</a></p>
-              <p><a href="<?php echo base_url('index.php/Home/Review');?>" class="btn btn-primary text-white">Write Review</a></p>
+              <p><a href="<?php echo base_url('index.php/upload');?>" class="btn btn-primary text-white">Write Review</a></p>
           </div>
         </div>
 

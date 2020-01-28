@@ -40,19 +40,6 @@
             <?php endforeach;?>
         </div>
 
-<!--        <div class="row" data-aos="fade">-->
-<!--            <div class="col-12">-->
-<!--                <div class="custom-pagination">-->
-<!--                    <ul class="list-unstyled">-->
-<!--                        <li class="active"><span>1</span></li>-->
-<!--                        <li><a href="#">2</a></li>-->
-<!--                        <li><a href="#">3</a></li>-->
-<!--                        <li><span>...</span></li>-->
-<!--                        <li><a href="#">30</a></li>-->
-<!--                    </ul>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
     </div>
 </section>
 
