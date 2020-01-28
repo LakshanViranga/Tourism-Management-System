@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8783ea73-a729-47c8-a342-777d95fa1b7c" name="Default Changelist" comment="lakshan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Review_Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Review_Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/Review.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Review_Model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin_sup.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_sup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/place_cat/hotel.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/place_cat/hotel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/place_details.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/place_details.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/write_review.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/write_review.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/include/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/location_details.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/location_details.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/weather_condition.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/weather_condition.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +126,7 @@
       <workItem from="1579518433471" duration="598000" />
       <workItem from="1579519967943" duration="2272000" />
       <workItem from="1579523548352" duration="1667000" />
-      <workItem from="1580215669439" duration="580000" />
+      <workItem from="1580215669439" duration="4459000" />
     </task>
     <servers />
   </component>

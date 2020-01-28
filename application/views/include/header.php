@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>css/file_input.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>fonts/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>fonts/fontawesome/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="<?php echo base_url();?>css/weather.css">
     <!-- Theme Style -->
     <link rel="stylesheet" href="<?php echo base_url(); ?>css/style.css">
 </head>
