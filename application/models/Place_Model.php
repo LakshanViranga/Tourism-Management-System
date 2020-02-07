@@ -3,16 +3,17 @@
 
 class Place_Model extends CI_Model
 {
-   public function get_place()
+   public function get_place($category)
    {
-       $query = $this->db->get('place_details');
+       $this->db->where('category_id',$category);
+       $query = $this->db->get('business_place');
        return $query->result();
    }
 
    public function get_review($id)
    {
-       $this->db->where('place_id',$id);
-       $respond = $this->db->get('place_details');
+       $this->db->where('id',$id);
+       $respond = $this->db->get('business_place');
        return $respond->result_array();
    }
 

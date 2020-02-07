@@ -1,6 +1,6 @@
 <?php include('include/header.php') ?>
 
-<section class="site-hero inner-page overlay" style="background-image: url(../../images/hero_4.jpg)" data-stellar-background-ratio="0.5">
+<section class="site-hero inner-page overlay" style="background-image: url(../images/hero_4.jpg)" data-stellar-background-ratio="0.5">
     <div class="container">
         <div class="row site-hero-inner justify-content-center align-items-center">
             <div class="col-md-10 text-center" data-aos="fade">
@@ -74,7 +74,7 @@
                     <div class="row">
                         <div class="col-md-6 form-group">
 <!--                            <button class="btn btn-primary text-white font-weight-bold" value="upload" type="submit">Submit Review</button>-->
-                            <input type="submit" value="upload" />
+                            <input class="btn btn-primary text-white py-2 mr-3" type="submit" value="Submit Review" />
                         </div>
                     </div>
 <!--                </form>-->

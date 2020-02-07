@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row site-hero-inner justify-content-center align-items-center">
             <div class="col-md-10 text-center" data-aos="fade">
-                <h1 class="heading mb-3">Best Adventure Place to Visit</h1>
+                <h1 class="heading mb-3">Best Hiking Place to Visit</h1>
                 <ul class="custom-breadcrumbs mb-4">
                     <li><a href="<?php echo base_url('index.php');?>">Home</a></li>
                     <li>&bullet;</li>
@@ -29,7 +29,7 @@
             <?php foreach ($query1 as $row1):?>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 post mb-5" data-aos="fade-up" data-aos-delay="100">
                     <div class="media media-custom d-block mb-4 h-100">
-                        <a href="#" class="mb-4 d-block"><img src="images/sample.jpg" alt="Image placeholder" class="img-fluid"></a>
+                        <a href="#" class="mb-4 d-block"><img src="<?php echo $row1->path ?>" alt="Image placeholder" class="img-fluid"></a>
                         <div class="media-body">
                             <h2 class="mt-0 mb-3"><a href="#"><?php echo $row1->place_name ?></a></h2>
                             <p>Location Description</p>

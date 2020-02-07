@@ -3,10 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="8783ea73-a729-47c8-a342-777d95fa1b7c" name="Default Changelist" comment="lakshan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Edit_User_Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Location_Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Location_Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Place_Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Place_Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Register_Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/Place_Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Place_Model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/cart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/location_details.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/location_details.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/place_details.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/place_details.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/weather_condition.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/weather_condition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/include/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/location_cat/adventure.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/location_cat/adventure.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/location_cat/ancient.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/location_cat/ancient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/location_cat/hiking.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/location_cat/hiking.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/location_cat/natural.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/location_cat/natural.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/location_cat/surfing.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/location_cat/surfing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/location_cat/wild_safari.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/location_cat/wild_safari.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/photo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/place_cat/bangalow.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/place_cat/bangalow.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/place_cat/guest_house.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/place_cat/guest_house.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/place_cat/hotel.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/place_cat/hotel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/place_cat/kabana.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/place_cat/kabana.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/place_cat/other.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/place_cat/other.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/place_cat/restaurants.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/place_cat/restaurants.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/write_review.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/write_review.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,21 +70,23 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/controllers" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\tour_v1" />
+      <recent name="C:\xampp\htdocs\tour_v1\application\views" />
+      <recent name="C:\xampp\htdocs\tour_v1\application\controllers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\tour_v1" />
       <recent name="C:\xampp\htdocs\tour_v1\application\views" />
       <recent name="C:\xampp\htdocs\tour_v1\application\views\user" />
       <recent name="C:\xampp\htdocs\tour_v1\application\views\location_cat" />
       <recent name="C:\xampp\htdocs\tour_v1\application" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\tour_v1\application\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -127,7 +148,12 @@
       <workItem from="1579518433471" duration="598000" />
       <workItem from="1579519967943" duration="2272000" />
       <workItem from="1579523548352" duration="1667000" />
-      <workItem from="1580215669439" duration="6972000" />
+      <workItem from="1580215669439" duration="7563000" />
+      <workItem from="1580735083363" duration="29000" />
+      <workItem from="1580818315435" duration="3243000" />
+      <workItem from="1580841915151" duration="25000" />
+      <workItem from="1581082723745" duration="1348000" />
+      <workItem from="1581086225920" duration="17076000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,4 @@
 
-    
   <?php include('include/header.php') ?>
 
     <section class="site-hero inner-page overlay" style="background-image: url(../../images/hero_4.jpg)" data-stellar-background-ratio="0.5">

@@ -29,7 +29,7 @@
             <?php foreach ($query as $row):?>
             <div class="col-lg-4 col-md-6 col-sm-6 col-12 post mb-5" data-aos="fade-up" data-aos-delay="100">
                 <div class="media media-custom d-block mb-4 h-100">
-                    <a href="#" class="mb-4 d-block"><img src="images/sample.jpg" alt="Image placeholder" class="img-fluid"></a>
+                    <a href="#" class="mb-4 d-block"><img src="<?php echo $row->path ?>" alt="Image placeholder" class="img-fluid"></a>
                     <div class="media-body">
                         <h2 class="mt-0 mb-3"><a href="#"><?php echo $row->place_name ?></a></h2>
                         <p>Location Description</p>

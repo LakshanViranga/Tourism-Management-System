@@ -6,7 +6,7 @@ class Place_Controller extends CI_Controller
    public function P_Hotel()
    {
        $this->load->model('Place_Model');
-       $data['query'] = $this->Place_Model->get_place();
+       $data['query'] = $this->Place_Model->get_place('1');
        $this->load->view('place_cat/hotel',$data);
 
    }
@@ -23,7 +23,7 @@ class Place_Controller extends CI_Controller
     public function P_Kabana()
    {
        $this->load->model('Place_Model');
-       $data['query'] = $this->Place_Model->get_place();
+       $data['query'] = $this->Place_Model->get_place('3');
        $this->load->view('place_cat/kabana',$data);
    }
 
@@ -39,7 +39,7 @@ class Place_Controller extends CI_Controller
    public function P_Bungalow()
    {
        $this->load->model('Place_Model');
-       $data['query'] = $this->Place_Model->get_place();
+       $data['query'] = $this->Place_Model->get_place('4');
        $this->load->view('place_cat/bangalow',$data);
    }
 
@@ -87,7 +87,7 @@ class Place_Controller extends CI_Controller
    public function P_Restaurants()
    {
        $this->load->model('Place_Model');
-       $data['query'] = $this->Place_Model->get_place();
+       $data['query'] = $this->Place_Model->get_place('2');
        $this->load->view('place_cat/restaurants',$data);
    }
 
