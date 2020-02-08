@@ -85,7 +85,7 @@
       <div class="container">
         <div class="row justify-content-center text-center mb-5">
           <div class="col-md-7">
-            <h2 class="heading" data-aos="fade"><?php $result = $respond[0]; echo print_r($result['place_name']);  ?></h2>
+            <h2 class="heading" data-aos="fade"><?php $result = $respond[0]; echo print_r($result['name']);  ?></h2>
             <p data-aos="fade">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
           </div>
         </div>
@@ -105,7 +105,7 @@
             <span class="d-block mb-4"><span class="display-4 text-primary">We are Guide</span> <span class="text-uppercase letter-spacing-2">your trip</span> </span>
             <h2 class="mb-4">Location info</h2>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-            <p><a href="<?php echo base_url('index.php/Home/Reservation/'.$result['place_name']);?>" class="btn btn-primary text-white">Book now</a></p>
+            <p><a href="<?php echo base_url('index.php/Home/Reservation/'.$result['name']);?>" class="btn btn-primary text-white">Book now</a></p>
               <p><a href="<?php echo base_url('index.php/upload');?>" class="btn btn-primary text-white">Write Review</a></p>
           </div>
         </div>

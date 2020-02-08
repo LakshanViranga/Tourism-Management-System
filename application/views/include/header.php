@@ -39,19 +39,22 @@
             </div>
             <!-- END menu-toggle -->
 
-            <div class="site-navbar js-site-navbar">
+            <div class="site-navbar js-site-navbar" style="">
               <nav role="navigation">
                 <div class="container">
-                  <div class="row full-height align-items-center">
-                    <div class="col-md-6 mx-auto">
+                  <div class="row full-height align-items-center" >
+                    <div class="col-md-6 mx-auto" style="box-shadow: 0 1px 38px rgba(0, 0, 0, 0.15), 0 5px 12px rgba(0, 0, 0, 0.25);background-color: #0d95e8">
                       <ul class="list-unstyled menu">
                         <li><a href="<?php echo base_url('index.php/Home/index');?>">Home</a></li>
                         <li><a href="<?php echo base_url('index.php/Home/Category');?>">Tour Category</a></li>
                         <li><a href="<?php echo base_url('index.php/Home/About');?>">About</a></li>
                         <li><a href="<?php echo base_url('index.php/Home/Photo');?>">Gallery</a></li>
                         <li><a href="<?php echo base_url('index.php/Home/Contact');?>">Contact</a></li>
+                          <li><a href="<?php echo base_url('index.php/Blog/head');?>">Admin Panel</a></li>
+                          <li><a href="<?php echo base_url('index.php/Home/Business');?>">Business Admin Panel</a></li>
                           <li><a href="<?php echo base_url('index.php/Cart_Controller/get_cart');?>">View Cart</a></li>
                           <li><a href="<?php echo base_url('index.php/Home/Edit');?>">My Profile</a></li>
+
                         <li class="active"><a href="<?php echo base_url('index.php/Home/login');?>">Login</a></li>
                       </ul>
                     </div>

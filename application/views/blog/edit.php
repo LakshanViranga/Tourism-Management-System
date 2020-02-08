@@ -1,18 +1,18 @@
 
-	<h3>Edit Blog</h3>
+	<h3>Edit User Profiles</h3>
 	<a href="<?php echo base_url('index.php/blog/index'); ?>" class="btn btn-default">Back</a>
 	<form action="<?php echo base_url('index.php/blog/update') ?>" method="post" class="form-horizontal">
-		<input type="hidden" name="txt_hidden" value="<?php echo $blog->id; ?>">
+		<input type="hidden" name="txt_hidden" value="<?php echo $blog->user_id; ?>">
 		<div class="form-group">
-			<label for="title" class="col-md-2 text-right">Title</label>
+			<label for="title" class="col-md-2 text-right">user_name</label>
 			<div class="col-md-10">
-				<input type="text" value="<?php echo $blog->title; ?>" name="txt_title" class="form-control" required>
+				<input type="text" value="<?php echo $blog->user_name; ?>" name="txt_title" class="form-control" required>
 			</div>
 		</div>
 		<div class="form-group">
-			<label for="description" class="col-md-2 text-right">Description</label>
+			<label for="description" class="col-md-2 text-right">email</label>
 			<div class="col-md-10">
-				<textarea name="txt_description" class="form-control"><?php echo $blog->description; ?></textarea>
+				<textarea name="txt_description" class="form-control"><?php echo $blog->email; ?></textarea>
 			</div>
 		</div>
 		<div class="form-group">

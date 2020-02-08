@@ -51,7 +51,10 @@ class Home extends CI_Controller {
     {
         $this->load->view('cart');
     }
-
+    public function Business()
+    {
+        $this->load->view('profile1');
+    }
     public function Weather()
     {
         $this->load->view('weather_condition');
