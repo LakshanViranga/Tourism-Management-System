@@ -3,14 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8783ea73-a729-47c8-a342-777d95fa1b7c" name="Default Changelist" comment="lakshan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/blog/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/blog/add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/blog/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/blog/edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/blog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/blog/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Login_Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Login_Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/Login_Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Login_Model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/include/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/place_details.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/place_details.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/login.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +137,7 @@
       <workItem from="1580841915151" duration="25000" />
       <workItem from="1581082723745" duration="1348000" />
       <workItem from="1581086225920" duration="17452000" />
-      <workItem from="1581132647576" duration="6997000" />
+      <workItem from="1581132647576" duration="8777000" />
     </task>
     <servers />
   </component>

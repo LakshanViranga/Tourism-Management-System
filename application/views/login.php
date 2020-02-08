@@ -1,63 +1,103 @@
+<?php include('include/header.php') ?>
 
-  <?php include('include/header.php') ?>
-
-    <section class="site-hero inner-page overlay" style="background-image: url(../../images/hero_4.jpg)" data-stellar-background-ratio="0.5">
-      <div class="container">
+<section class="site-hero inner-page overlay" style="background-image: url(../../images/hero_4.jpg)" data-stellar-background-ratio="0.5">
+    <div class="container">
         <div class="row site-hero-inner justify-content-center align-items-center">
-          <div class="col-md-10 text-center" data-aos="fade">
-            <h1 class="heading mb-3">Login Here</h1>
-            <ul class="custom-breadcrumbs mb-4">
-              <li><a href="<?php base_url('index.php')?>">Home</a></li>
-              <li>&bullet;</li>
-              <li>Reservation</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+            <div class="col-md-10 text-center" data-aos="fade">
+                <h1 class="heading mb-1">Login Here</h1>
+                <ul class="custom-breadcrumbs mb-4">
 
-      <a class="mouse smoothscroll" href="#next">
+                    <li class="text-black font-weight-bold"><a href="<?php echo base_url('index.php/Home')?>">Home</a></li>
+
+
+                    <li>&bullet;</li>
+                    <li>&bullet;</li>
+                    <li>Login</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <a class="mouse smoothscroll" href="#next">
         <div class="mouse-icon">
-          <span class="mouse-wheel"></span>
+            <span class="mouse-wheel"></span>
         </div>
-      </a>
-    </section>
-    <!-- END section -->
+    </a>
+</section>
+<!-- END section -->
 
-    <section class="section contact-section" id="next">
-      <div class="container">
+<section class="section contact-section" id="next">
+    <div class="container">
         <div class="row justify-content-center text-center mb-5">
-          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
 
-              <?php echo form_open('Login_Controller/Login');?>
-            <form  class="bg-white p-md-5 p-4 mb-5 border">
-              <div class="row">
-                <div class="col-md-12 form-group">
-                  <label class="text-black font-weight-bold" for="email">Email</label>
-                  <input type="email" id="email" class="form-control" name="email" required>
-                </div>
-              </div>
+                <?php echo form_open('Login_Controller/Login');?>
 
-              <div class="row">
-                <div class="col-md-12 form-group">
-                  <label class="text-black font-weight-bold" for="checkin_date">Password</label>
-                  <input type="password"  class="form-control" name="password" required>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <button type="submit" class="btn btn-primary text-white py-3 px-5 font-weight-bold" name="login">Login Now</button>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 form-group">
-                  <p> <a href="<?php echo base_url('index.php/Home/Register')?>"> Not have Account? Create An account Here</a></p>
-                </div>
-              </div>
-            </form>
-            <?php echo form_close();?>
-          </div>
- 
+                <form  class="bg-white p-md-5 p-4 mb-5 border">
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+
+                            <?php if ($this->session->flashdata('msg1')){
+                                echo "<h3>".$this->session->flashdata('msg1')."</h3>";
+                            }
+                            ?>
+                            <?php if ($this->session->flashdata('msg2')){
+                                echo "<h3>".$this->session->flashdata('msg2')."</h3>";
+                            }
+                            ?>
+
+                            <label class="text-black font-weight-bold" for="email">Email</label>
+                            <input type="email" id="email" class="form-control" name="email" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <label class="text-black font-weight-bold" for="password">Password</label>
+                            <input type="password"  class="form-control" name="password" required>
+
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+
+                        <div class="col-md-6 col-lg-3 align-self-end">
+                            <div class="btn-group">
+
+                                <button type="submit" class="btn btn-primary text-white py-3 px-5 font-weight-bold" name="login">Login Now</button>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <?php echo form_close();?>
+
+
+
+
+
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <p> <a href="<?php echo base_url('index.php/Blog/index')?>"> Login as admin</a></p>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <p> <a href="<?php echo base_url('index.php/Home/register')?>"> Not have Account? Create An account Here</a></p>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
         </div>
-      </div>
-    </section>    
-   <?php include('include/footer.php') ?>
+    </div>
+</section>
+<?php include('include/footer.php') ?>
+
+
